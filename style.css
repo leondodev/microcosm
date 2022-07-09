@@ -1,0 +1,81 @@
+html, body {
+  height: 100%;
+  margin: 0px;
+}
+body {
+  background: linear-gradient(-90deg, #6c6c6c 0%, black 100%);
+  background-attachment: fixed;
+  color: white;
+  font-family: 'Libre Baskerville', serif;
+  animation: Gradient 10s ease infinite;
+}
+article {
+  padding: 50px;
+  overflow-wrap: break-word;
+  max-width:100%;
+  margin: auto;
+  z-index: 10;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  font-family: "Montserrat";
+  text-align: center;
+  width: 100%;
+}
+.title {
+  font-family: "Montserrat";
+  text-align: center;
+  width: 100%;
+}
+.title h1 {
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 50px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin: 0;
+  text-align: center;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 30px #fff, 0 0 20px white;
+}
+.title h3 {
+  font-family: 'Varela Round', sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+  color: #eeeeee;
+  text-shadow: 0 0 30px #000155;
+  line-height: 175%;
+  letter-spacing: 2px;
+}
+h2 {
+  margin-top: 40px;
+  margin-bottom: 27px;
+  padding: 0.25em 0.5em;
+  text-align: center;
+  color: crimson;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black, 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 10px #fff;
+}
+h4 {
+  text-transform: uppercase;
+  display: block;
+  font-size: 1.3em;
+  margin: 0em 0 0;
+  font-weight: bold;
+  color: white;
+  text-shadow: 0px 2px 3px white;
+  text-align: center;
+  padding: 15px;
+}
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100% !important;
+  right: 0;
+  bottom: 0;
+  width: 100% !important;
+  z-index: 1;
+}
